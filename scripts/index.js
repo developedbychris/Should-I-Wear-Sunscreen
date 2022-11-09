@@ -16,8 +16,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
     function showPosition(position){
         userLat = position.coords.latitude
         userLong = position.coords.longitude
-        console.log(userLat)
-        console.log(userLong)
         document.getElementById('location-notice').style.display = 'none'
 
     }
