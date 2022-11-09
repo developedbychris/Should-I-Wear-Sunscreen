@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(85, 128, 128);
+}
+#input-wrapper{
+    background-color: rgb(240, 249, 255);
+    border-radius: 15px;
+    box-shadow: 10px 9px 15px -1px rgba(0,0,0,0.32);
+    -webkit-box-shadow: 10px 9px 15px -1px rgba(0,0,0,0.32);
+    -moz-box-shadow: 10px 9px 15px -1px rgba(0,0,0,0.32);
+}
+#bottle:hover{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    transition: 0.2s;
+}
+#error-field{
+    color: red;
+}
+#recommended{
+    visibility: hidden;
+}
+
+#footer{
+    text-decoration: none;
+    color: black;
+}
+#footer:hover{
+    color: white;
+    transition: 0.2s;
+}
+#git{
+    filter: invert(1%);
+    -webkit-filter: invert(1%);
+    -moz-filter: invert(1%);
+}
+#git:hover{
+
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    transition: 0.2s;
+}
